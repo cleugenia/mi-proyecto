@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  php-web:
+    image: meuged/php-web-app
+    container_name: php-web
+    ports:
+      - "8081:80"
+    networks:
+      - web-mysql-net
+    depends_on:
+      - mysql-server
+
+  mysql-server:
+    image: mysql:latest
+    container_name: mysql-server
+    environment:
+      MYSQL_ROOT_PASSWORD: "1234"
+      MYSQL_DATABASE: "ejemplo"
+    ports:
+      - "3307:3306"
+    networks:
+      - web-mysql-net
+
+networks:
+  web-mysql-net:
+    driver: bridge
