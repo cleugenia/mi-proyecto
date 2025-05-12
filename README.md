@@ -7,7 +7,7 @@ Este proyecto muestra cómo conectar una aplicación web PHP con una base de dat
 1. Cloná el repositorio:
    ```bash
    git clone https://github.com/tuusuario/php-mysql-app.git
-   cd php-mysql-app
+   cd mi-proyecto
    ```
 
 2. Levantá los servicios:
