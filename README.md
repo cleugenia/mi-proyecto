@@ -6,7 +6,7 @@ Este proyecto muestra cómo conectar una aplicación web PHP con una base de dat
 
 1. Cloná el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/mi-proyecto.git
+   git clone https://github.com/cleugenia/mi-proyecto.git
    cd mi-proyecto
    ```
 
